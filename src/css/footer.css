@@ -1,29 +1,83 @@
 @font-face {
     font-family: "Space Mono";
-    src: url(/fonts/SpaceMono-Regular.ttf) format("truetype");
+    src: url(../../assets/fonts/SpaceMono-Regular.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Mulish";
-    src: url(/fonts/Mulish-VariableFont_wght.ttf) format("truetype");
+    src: url(../../assets/fonts/Mulish-VariableFont_wght.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Mulish_E";
-    src: url(/fonts/Mulish-ExtraLight.ttf) format("truetype");
+    src: url(../../assets/fonts/Mulish-ExtraLight.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Mulish_SB";
+    src: url(../../assets/fonts/Mulish-SemiBold.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "NATS";
-    src: url(/fonts/NATS-Regular.ttf) format("truetype");
+    src: url(../../assets/fonts/NATS-Regular.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "NewsCycle";
-    src: url(/fonts/NewsCycle-Regular.ttf) format("truetype");
+    src: url(../../assets/fonts/NewsCycle-Regular.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "ReadexPro";
-    src: url(/fonts/ReadexPro[HEXP,wght].ttf) format("truetype");
+    src: url(../../assets/fonts/ReadexPro[HEXP,wght].ttf) format("truetype");
+}
+
+.footer-container {
+    background-color: #67A2CA;
+}
+
+.footer__logo {
+    padding-top: 20px;
+    padding-left: 5px;
+    width: 185px;
+    height: 185px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: black;
+    font-family: "Mulish_SB";
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.footer__social-title {
+    color: black;
+    font-family: "Mulish_SB";
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.footer__social {
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+.footer__social-icon {
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.info-complementary {
+    color: black;
+    font-family: "Mulish_SB";
+    padding-left: 30px;
+    font-size: 12px;
+    width: 330px;
+}
+
+.footer-mmi__logo {
+    display: flex;
+    padding-left: 150px;
 }

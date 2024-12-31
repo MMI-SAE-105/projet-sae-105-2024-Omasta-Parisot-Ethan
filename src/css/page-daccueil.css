@@ -1,29 +1,55 @@
 @font-face {
     font-family: "Space Mono";
-    src: url(/fonts/SpaceMono-Regular.ttf) format("truetype");
+    src: url(../../assets/fonts/SpaceMono-Regular.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Mulish";
-    src: url(/fonts/Mulish-VariableFont_wght.ttf) format("truetype");
+    src: url(../../assets/fonts/Mulish-VariableFont_wght.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Mulish_E";
-    src: url(/fonts/Mulish-ExtraLight.ttf) format("truetype");
+    src: url(../../assets/fonts/Mulish-ExtraLight.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Mulish_SB";
+    src: url(../../assets/fonts/Mulish-SemiBold.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "NATS";
-    src: url(/fonts/NATS-Regular.ttf) format("truetype");
+    src: url(../../assets/fonts/NATS-Regular.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "NewsCycle";
-    src: url(/fonts/NewsCycle-Regular.ttf) format("truetype");
+    src: url(../../assets/fonts/NewsCycle-Regular.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "ReadexPro";
-    src: url(/fonts/ReadexPro[HEXP,wght].ttf) format("truetype");
+    src: url(../../assets/fonts/ReadexPro[HEXP,wght].ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #BBD7EF;
+}
+
+.intro-section__image {
+    position: relative;
+}
+
+.text-over {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
