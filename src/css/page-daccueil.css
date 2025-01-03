@@ -29,7 +29,7 @@
 }
 
 @font-face {
-    font-family: "ReadexPro";
+    font-family: "Readex Pro";
     src: url(../../assets/fonts/ReadexPro[HEXP,wght].ttf) format("truetype");
 }
 
@@ -58,7 +58,108 @@ body {
     align-items: center;
     display: flex;
     position: absolute;
+    font-size: 30px;
     left: 50%;
-    top: 83%;
+    top: 85%;
     transform: translate(-50%,-50%);
+}
+
+.main__title {
+    font-family: "Space Mono";
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.intro-section__description {
+    font-family: "Readex Pro";
+    font-size: 19px;
+    background-color: #A9D4F1;
+    border: 1px solid black;
+    margin: 0.1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.logo-section__image {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.articles-section__title {
+    font-family: "Space Mono";
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.article__image0 {
+    margin-left: 55px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.article__image1 {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.article__image2 {
+    margin-left: 65px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.article__image3 {
+    margin-left: 55px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.article__image4 {
+    margin-left: 65px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.article__title {
+    font-family: "Space Mono";
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-bottom: 40px;
+    max-width: 260px;
+}
+
+.article-int__description {
+    font-family: "NATS";
+    font-size: 18px;
+    line-height: 18px;
+    max-width: 280px;
+    margin-left: 60px;
+}
+
+.separator {
+    margin-left: 20px;
+    width: 355px; 
+    height: 3px; 
+    background-color: #E3F0F0; 
+}
+
+.separator-last {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    width: 355px; 
+    height: 3px; 
+    background-color: #E3F0F0; 
+}
+
+.article__description {
+    font-family: "Mulish";
+    font-size: 14px;
+    max-width: 280px;
+    margin-left: 60px;
 }
