@@ -32,3 +32,64 @@
     font-family: "ReadexPro";
     src: url(../../assets/fonts/ReadexPro[HEXP,wght].ttf) format("truetype");
 }
+
+.cta-section__button a{
+    text-decoration: none;
+    color: black;
+}
+
+.cta-section__button {
+    background-color: #FF9757;
+    border-radius: 6px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px;
+}
+
+.cta-section__button-second {
+    margin-left: 88px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.arrow {
+    background: black;
+    height: 0.1em;
+    width: 1.5em;
+    margin-right: 1em;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.arrow::before,
+.arrow::after {
+    position: absolute;
+    content: "";
+    background: black;
+    height: 0.1em;
+    width: 0.4em;
+    right: 0;
+    top: 0;
+}
+
+.arrow::before {
+    transform: rotate(45deg);
+    transform-origin: right bottom;
+}
+
+.arrow::after {
+    transform: rotate(-45deg);
+    transform-origin: right top;
+}
+
+.cta-section__button:hover .arrow {
+    width: 2em;
+}
+
+.cta-section__text {
+    color: white;
+    margin-left: 20px;
+}
+

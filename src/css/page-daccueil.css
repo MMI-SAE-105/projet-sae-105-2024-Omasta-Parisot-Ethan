@@ -45,11 +45,20 @@ body {
 
 .intro-section__image {
     position: relative;
+    width: 100%; 
+    height: auto; 
+    display: block;
 }
 
 .text-over {
+    font-family: "Space Mono";
+    max-width: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 83%;
     transform: translate(-50%,-50%);
 }
