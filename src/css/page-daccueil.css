@@ -67,7 +67,7 @@ body {
 .main__title {
     font-family: "Space Mono";
     font-size: 30px;
-    margin-left: 20px;
+    text-align: center;
 }
 
 .intro-section__description {
@@ -94,34 +94,12 @@ body {
     margin-bottom: 40px;
 }
 
-.article__image0 {
+.article__image {
     margin-left: 55px;
     margin-top: 10px;
     margin-bottom: 30px;
-}
-
-.article__image1 {
-    margin-left: 50px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.article__image2 {
-    margin-left: 65px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.article__image3 {
-    margin-left: 55px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.article__image4 {
-    margin-left: 65px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    width: 300px;
+    height: 400px;
 }
 
 .article__title {
@@ -143,6 +121,7 @@ body {
 }
 
 .separator {
+    margin-top: 50px;
     margin-left: 20px;
     width: 355px; 
     height: 3px; 
@@ -150,6 +129,7 @@ body {
 }
 
 .separator-last {
+    margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 20px;
     width: 355px; 

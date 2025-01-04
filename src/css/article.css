@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: "Mulish_E";
+    font-family: "Mulish_EL";
     src: url(../../assets/fonts/Mulish-ExtraLight.ttf) format("truetype");
 }
 
@@ -41,4 +41,84 @@
 
 body {
     background-color: #BBD7EF;
+}
+
+.article-title {
+    font-family: "Space Mono";
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.article-intro__image {
+    margin-left: 46.5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.article-section__title {
+    font-family: "Space Mono";
+    font-size: 22px;
+    margin-left: 21px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    max-width: 350px;
+}
+
+.article-section__synopsis {
+    font-family: "ReadexPro";
+    font-size: 14px;
+    background-color: #A9D4F1;
+    border: 1px solid black;
+    margin: 0.1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.article-section__description {
+    font-family: "Mulish";
+    font-size: 17px;
+    max-width: 350px;
+    margin-left: 21px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.article-section__image {
+    width: 300px;
+    margin-left: 47px;
+}
+
+.article-section__timeline {
+    width: 100%;
+}
+
+.separator-last {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    width: 355px; 
+    height: 3px; 
+    background-color: #E3F0F0; 
+}
+
+.separator {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 355px; 
+    height: 3px; 
+    background-color: #E3F0F0; 
+}
+
+.img__legend {
+    font-family: "Mulish_EL";
+    font-size: 10px;
+    margin-left: 47px;
+}
+
+.article-section__list li {
+    margin-left: 38px;
+    max-width: 300px;
 }
