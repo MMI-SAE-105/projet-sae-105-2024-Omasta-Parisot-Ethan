@@ -42,3 +42,18 @@
 body {
     background-color: #BBD7EF;
 }
+
+.about-title {
+    font-family: "Space Mono";
+    font-size: 30px;
+    margin-left: 21px;
+}
+
+.about-section__description {
+    margin-left: 21px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    max-width: 330px;
+    font-family: "Mulish";
+    font-size: 17px;
+}

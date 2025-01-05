@@ -42,3 +42,23 @@
 body {
     background-color: #BBD7EF;
 }
+
+.glossary-title {
+    font-family: "Space Mono";
+    font-size: 30px;
+    margin-left: 21px;
+}
+
+.glossary-section__title {
+    font-family: "Mulish";
+    font-size: 17px;
+    margin-left: 21px;
+    margin-top: 60px;
+}
+
+.glossary-section__description {
+    margin-top: 20px;
+    margin-left: 33px;
+    margin-bottom: 50px;
+    max-width: 310px;
+}
