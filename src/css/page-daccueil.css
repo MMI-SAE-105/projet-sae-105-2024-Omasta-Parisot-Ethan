@@ -59,8 +59,6 @@ body {
     display: flex;
     position: absolute;
     font-size: 30px;
-    left: 50%;
-    top: 85%;
     transform: translate(-50%,-50%);
 }
 
