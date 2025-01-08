@@ -37,6 +37,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
 
 body {
@@ -46,19 +47,19 @@ body {
 .glossary-title {
     font-family: "Space Mono";
     font-size: 30px;
-    margin-left: 21px;
+    margin-left: 10%;
 }
 
 .glossary-section__title {
     font-family: "Mulish";
     font-size: 17px;
-    margin-left: 21px;
+    margin-left: 10%;
     margin-top: 60px;
 }
 
 .glossary-section__description {
     margin-top: 20px;
-    margin-left: 33px;
+    margin-left: 14%;
     margin-bottom: 50px;
-    max-width: 310px;
+    max-width: 80%;
 }

@@ -81,3 +81,7 @@
     display: flex;
     padding-left: 150px;
 }
+
+.footer {
+    width: 100%;
+}

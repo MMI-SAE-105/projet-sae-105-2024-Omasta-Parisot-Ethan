@@ -7,9 +7,9 @@
     <script> src="src/js/menu.js"</script>
     <script> src="src/js/script.js"</script>
     <link rel="stylesheet" href="../src/css/button.css">
-    <link rel="stylesheet" href="../src/css/article.css">
+    <link rel="stylesheet" href="../src/css/contact.css">
     <link rel="stylesheet" href="../src/css/footer.css">
-    <link rel="stylesheet" href="../src/css/menu.css">
+    <link rel="stylesheet" href="../src/css/header.css">
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/assets/img/logo_projet.png" />
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -17,47 +17,43 @@
     <link rel="manifest" href="/site.webmanifest" />
 </head>
 <body>
-    <div class="header-container">
-    <header>
-    <a href="index.html" class="header__logo-cta" loading="lazy">
-        <img src="../assets/img/logo_projet.png" alt="Cliquable pour page d'accueil" class="header__logo-img" loading="lazy"></a>
-        <a href="../en/Contact-form.html">
-        <img src="../assets/img/changement_langue_francais.webp" alt="pour changer la langue du site" class="header__search-icon" loading="lazy">
-        </a>
-        <nav id="header__menu" class="header__menu">
-            <a id="closebtn" href="#" class="close">×
+    <header class="header">
+        <div class="bande-header">
+            <a href="index.html" class="header_logo-link" aria-label="Retour à la page d'accueil">
+                <img src="../assets/img/logo_projet.png" alt="Logo holovisio" class="header_logo" loading="lazy">
             </a>
-            <ul>
-                <li class="menu__item">
-                    <a href="Article-Television-du-futur.html" class="menu__link">Télévision du futur</a></li>
-                <li class="menu__item">
-                    <a href="Article-Livre.html" class="menu__link">La télévision déchaînée</a></li>
-                <li class="menu__item">
-                    <a href="Article-Film.html" class="menu__link">Iron Man 2</a></li>
-                <li class="menu__item">
-                    <a href="Article-Realisateur.html" class="menu__link">Jon Favreau</a></li>
-                <li class="menu__item">
-                    <a href="Article-Musique.html" class="menu__link">The Time Machine</a></li>
-                <li class="menu__item">
-                    <a href="Formulaire-de-contact.html" class="menu__link">Formulaire de contact</a></li>
-                <li class="menu__item">
-                    <a href="Les-autres-projets.html" class="menu__link">Autres projets</a></li>
-                <li class="menu__item">
-                    <a href="Glossaire.html" class="menu__link">Glossaire</a></li>
-                <li class="menu__item">
-                    <a href="A-propos.html" class="menu__link">A propos</a></li>
-            </ul>
-        </nav>
-        <section class="openbtn">
-        <span class="burger-icon" id="burger-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-        </span>
-        </section>
+            <h2 class="htitle">Holovisio</h2>
+            <a href="../en/Contact-form.html" class="header_logo-linkfr" aria-label="Changer la langue en Anglais">
+                <img src="../assets/img/changement_langue_francais.webp" alt="Changer la langue en français" class="header_logofr" loading="lazy">
+            </a>
+            <menu class="header_menu">
+                <div class="menu-container">
+                    <button class="menu-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+                    <nav id="menu" class="menu" aria-label="Navigation principale">
+                        <button class="menu-close" aria-label="Fermer le menu">✖</button>
+                        <ul class="header_menu-list">
+                            <li class="header_menu-item"><a href="Article-Television-du-futur.html" class="header_menu-link">Télévision du futur</a></li>
+                            <li class="header_menu-item"><a href="Article-Livre.html" class="header_menu-link">La télévision déchaînée</a></li>
+                            <li class="header_menu-item"><a href="Article-Film.html" class="header_menu-link">Iron Man 2</a>
+                            </li>
+                            <li class="header_menu-item"><a href="Article-Realisateur.html" class="header_menu-link">Jon Favreau</a>
+                            </li>
+                            <li class="header_menu-item"><a href="Article-Musique.html" class="header_menu-link">The Time Machine</a>
+                            </li>
+                            <li class="header_menu-item"><a href="Formulaire-de-contact.html" class="header_menu-link">Formulaire de contact</a>
+                            </li>
+                            <li class="header_menu-item"><a href="Les-autres-projets.html" class="header_menu-link">Autres projets</a></li>
+                            <li class="header_menu-item"><a href="Glossaire.html" class="header_menu-link">Glossaire</a>
+                            </li>
+                            <li class="header_menu-item"><a href="A-propos.html" class="header_menu-link">A propos</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </menu>
+        </div>
+    <script src="../src/js/menu.js" defer></script>
     </header>
-    </div>
-
     <div class="contact-page">
         <section class="contact-header">
             <h1 class="contact__title"> Formulaire de contact </h1>
@@ -67,19 +63,19 @@
         <section class="contact-details">
             <form class="contact-details-form">
                 <div class="form-group">
-                <label for="Prénom">Prénom</label>
+                <label for="Prénom" class="form__label">Prénom</label>
                 <input type="text" id="Prénom" name="Prénom"> <br>
                 </div>
                 <div class="form-group">
-                <label for="Nom">Nom</label>
+                <label for="Nom" class="form__label">Nom</label>
                 <input type="text" id="Nom" name="Nom"> <br>
                 </div>
                 <div class="form-group">
-                <label for="E-mail">E-mail</label>
+                <label for="E-mail" class="form__label">E-mail</label>
                 <input type="text" id="E-mail" name="E-mail"> <br>
                 </div>
                 <div class="form-group">
-                <label for="Objet">Objet</label> 
+                <label for="Objet" class="form__label">Objet</label> 
                 <input type="text" id="Objet" name="Objet"> <br>
                 </div>
             </form>
@@ -87,15 +83,15 @@
         <section class="contact-message">
             <form action="submit_comment.php" method="POST" class="comment-section">
             <div class="form-group">
-                <label for="Message">Message</label>
+                <label for="Message" class="form__label">Message</label>
                 <textarea name="comment" placeholder="Écrivez votre message ici..."></textarea>
             </div>
             <div class="form-group">
-                <div class="cta-section-container">
-                    <section class="cta-section">
-                        <div class="cta-section__button-second">
-                        <button class="cta-section__button">
-                            <a href="#" class="cta-section__button"> <div class="arrow"></div>ENVOYER LE MESSAGE</a> 
+                <div class="cta-sectiono-container">
+                    <section class="cta-sectiono">
+                        <div class="cta-sectiono__button-second">
+                        <button class="cta-sectiono__button">
+                            <a href="#" class="cta-sectiono__button"> <div class="arrow"></div>ENVOYER LE MESSAGE</a> 
                         </button>
                     </div>
                     </section>

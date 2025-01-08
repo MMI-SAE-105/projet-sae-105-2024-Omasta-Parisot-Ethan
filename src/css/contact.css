@@ -44,29 +44,63 @@ body {
     background-color: #BBD7EF;
 }
 
-.project-content {
-    background-color: #A6CAE9;
+.contact-page {
+    font-family: "Space Mono";
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
-.project-info {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.contact__title {
+    font-family: "Space Mono";
+    font-size: 30px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.contact-form-container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-details-form,
+.comment-section {
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
     color: black;
 }
 
-.project-img {
-    width: 80px; 
-    height: 80px;
+input[type="text"],
+textarea {
+    margin-left: 20%;
+    width: 60% ;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+textarea {
+    height: 100px;
+}
+
+.form__label {
+    margin-left: 20%;
 }
 
 .cta-sectiono-container {
@@ -80,6 +114,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 20px 0;
+    margin-bottom: 50px;
 }
 
 .cta-sectiono__button {
@@ -141,10 +176,4 @@ body {
 
 .cta-sectiono__button:hover .arrow {
     width: 2em; 
-}
-
-.article-title {
-    font-family: "Space Mono";
-    font-size: 30px;
-    margin-left: 10%;
 }

@@ -6,5 +6,5 @@
 - NOM : Omasta-Parisot
 - PRÉNOM : Ethan
 - GROUPE : C1
-- URL du site : https://projet-s1-ethan-omasta-parisot.netlify.app/fr/
+- URL du site : https://holovisio.ethan-omastaparisot.com
 - URL FIGMA : https://www.figma.com/design/d2iI0AzhGSR9VptQEgOxSX/Projet-Pr%C3%A9histoire-du-futur-Omasta-Parisot-Ethan-Ojet-T%C3%A9l%C3%A9vision-du-futur?node-id=23-3&p=f&m=dev

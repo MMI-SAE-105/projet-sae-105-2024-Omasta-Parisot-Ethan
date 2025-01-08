@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../src/css/button.css">
     <link rel="stylesheet" href="../src/css/article.css">
     <link rel="stylesheet" href="../src/css/footer.css">
-    <link rel="stylesheet" href="../src/css/menu.css">
+    <link rel="stylesheet" href="../src/css/header.css">
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/assets/img/logo_projet.png" />
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -18,44 +18,43 @@
 </head>
 <body>
     <div class="header-container">
-    <header>
-    <a href="index.html" class="header__logo-cta" loading="lazy">
-        <img src="../assets/img/logo_projet.png" alt="Clickable to homepage" class="header__logo-img" loading="lazy"></a>
-        <a href="../fr/Article-Livre.html">
-        <img src="../assets/img/changement_langue_anglais.webp" alt="For changing the website language" class="header__search-icon" loading="lazy">
-        </a>
-        <nav id="header__menu" class="header__menu">
-            <a id="closebtn" href="#" class="close">×
-            </a>
-            <ul>
-                <li class="menu__item">
-                    <a href="Article-Television-du-futur.html" class="menu__link">Television of the Future</a></li>
-                <li class="menu__item">
-                    <a href="Article-Livre.html" class="menu__link">The Unleashed Television</a></li>
-                <li class="menu__item">
-                    <a href="Article-Film.html" class="menu__link">Iron Man 2</a></li>
-                <li class="menu__item">
-                    <a href="Article-Realisateur.html" class="menu__link">Jon Favreau</a></li>
-                <li class="menu__item">
-                    <a href="Article-Musique.html" class="menu__link">The Time Machine</a></li>
-                <li class="menu__item">
-                    <a href="Formulaire-de-contact.html" class="menu__link">Contact Form</a></li>
-                <li class="menu__item">
-                    <a href="Les-autres-projets.html" class="menu__link">Other Projects</a></li>
-                <li class="menu__item">
-                    <a href="Glossaire.html" class="menu__link">Glossary</a></li>
-                <li class="menu__item">
-                    <a href="A-propos.html" class="menu__link">About</a></li>
-            </ul>
-        </nav>
-        <section class="openbtn">
-        <span class="burger-icon" id="burger-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-        </span>
-        </section>
-    </header>
+        <header class="header">
+            <div class="bande-header">
+                <a href="index.html" class="header_logo-link" aria-label="Retour à la page d'accueil">
+                    <img src="../assets/img/logo_projet.png" alt="Logo holovisio" class="header_logo" loading="lazy">
+                </a>
+                <h2 class="htitle">Holovisio</h2>
+                <a href="../fr/Article-Livre.html" class="header_logo-linkfr" aria-label="Changer la langue en Anglais">
+                    <img src="../assets/img/changement_langue_anglais.webp" alt="Changer la langue en français" class="header_logofr" loading="lazy">
+                </a>
+                <menu class="header_menu">
+                    <div class="menu-container">
+                        <button class="menu-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+                        <nav id="menu" class="menu" aria-label="Navigation principale">
+                            <button class="menu-close" aria-label="Fermer le menu">✖</button>
+                            <ul class="header_menu-list">
+                                <li class="header_menu-item"><a href="Article-Television-of-the-futur.html" class="header_menu-link">Television of the future</a></li>
+                                <li class="header_menu-item"><a href="Article-Book.html" class="header_menu-link">The Unchained Television</a></li>
+                                <li class="header_menu-item"><a href="Article-Movie.html" class="header_menu-link">Iron Man 2</a>
+                                </li>
+                                <li class="header_menu-item"><a href="Article-Director.html" class="header_menu-link">Jon Favreau</a>
+                                </li>
+                                <li class="header_menu-item"><a href="Article-Music.html" class="header_menu-link">The Time Machine</a>
+                                </li>
+                                <li class="header_menu-item"><a href="Contact-form.html" class="header_menu-link">Contact form</a>
+                                </li>
+                                <li class="header_menu-item"><a href="Other-projects.html" class="header_menu-link">Other projects</a></li>
+                                <li class="header_menu-item"><a href="Glossary.html" class="header_menu-link">Glossary</a>
+                                </li>
+                                <li class="header_menu-item"><a href="About.html" class="header_menu-link">About</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </menu>
+            </div>
+        <script src="../src/js/menu.js" defer></script>
+        </header>
     </div>
     <div class="article-container">
         <section class="article-intro">
